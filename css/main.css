@@ -428,7 +428,7 @@ video {
 }
 
 .our-img-content2 {
-  background: url(/img/main/business_bg2.jpg) 0 0/cover no-repeat;
+  background: url(../img/main/business_bg2.jpg) 0 0/cover no-repeat;
   display: flex;
   align-items: flex-end;
   height: 25vw;
@@ -459,7 +459,7 @@ video {
 }
 
 .our-img-content3 {
-  background: url(/img/main/business_bg3.jpg) 0 0/cover no-repeat;
+  background: url(../img/main/business_bg3.jpg) 0 0/cover no-repeat;
   display: flex;
   align-items: flex-end;
   height: 25vw;
