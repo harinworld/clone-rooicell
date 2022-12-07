@@ -1,4 +1,4 @@
-/* @charset "UTF-8"; */
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 * {
   margin: 0;
@@ -191,8 +191,7 @@ video {
   line-height: 1.7;
   transform: translateY(500px);
   color: #fff;
-  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움",
-    dotum, sans-serif;
+  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
 }
 
 .circle {
@@ -232,8 +231,7 @@ video {
   font-size: 28px;
   line-height: 1.7;
   color: #fff;
-  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움",
-    dotum, sans-serif;
+  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
 }
 
 .circle2 {
@@ -288,7 +286,7 @@ video {
   filter: blur(10px);
   transition: 0.5s;
   -webkit-animation: blur-no 0.3s linear forwards;
-  animation: blur-no 0.3s linear forwards;
+          animation: blur-no 0.3s linear forwards;
 }
 
 @-webkit-keyframes blur-no {
@@ -319,7 +317,7 @@ video {
   filter: blur(10px);
   transition: 0.5s;
   -webkit-animation: blur-no 0.3s linear forwards;
-  animation: blur-no 0.3s linear forwards;
+          animation: blur-no 0.3s linear forwards;
 }
 
 .content-img-txt {
@@ -370,8 +368,7 @@ video {
   font-weight: 400;
   letter-spacing: -0.1px;
   margin-top: 12px;
-  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움",
-    dotum, sans-serif;
+  font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
 }
 
 .content-img-second {
@@ -415,7 +412,7 @@ video {
 }
 
 .our-img-content1 {
-  background: url(../img/main/business_bg1.jpg) 0 0 / cover no-repeat;
+  background: url(../img/main/business_bg1.jpg) 0 0/cover no-repeat;
   background-blend-mode: multiply;
   display: flex;
   align-items: flex-end;
@@ -431,7 +428,7 @@ video {
 }
 
 .our-img-content2 {
-  background: url(/img/main/business_bg2.jpg) 0 0 / cover no-repeat;
+  background: url(/img/main/business_bg2.jpg) 0 0/cover no-repeat;
   display: flex;
   align-items: flex-end;
   height: 25vw;
@@ -462,7 +459,7 @@ video {
 }
 
 .our-img-content3 {
-  background: url(/img/main/business_bg3.jpg) 0 0 / cover no-repeat;
+  background: url(/img/main/business_bg3.jpg) 0 0/cover no-repeat;
   display: flex;
   align-items: flex-end;
   height: 25vw;
@@ -730,8 +727,7 @@ video {
     line-height: 1.7;
     transform: translateY(500px);
     color: #fff;
-    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic",
-      "돋움", dotum, sans-serif;
+    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
   }
   .circle {
     position: relative;
@@ -764,8 +760,7 @@ video {
     font-size: 28px;
     line-height: 1.7;
     color: #fff;
-    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic",
-      "돋움", dotum, sans-serif;
+    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
   }
   .circle2 {
     margin-top: 50px;
@@ -811,7 +806,7 @@ video {
     filter: blur(10px);
     transition: 0.5s;
     -webkit-animation: blur-no 0.3s linear forwards;
-    animation: blur-no 0.3s linear forwards;
+            animation: blur-no 0.3s linear forwards;
   }
   @-webkit-keyframes blur-no {
     0% {
@@ -843,7 +838,7 @@ video {
     filter: blur(10px);
     transition: 0.5s;
     -webkit-animation: blur-no 0.3s linear forwards;
-    animation: blur-no 0.3s linear forwards;
+            animation: blur-no 0.3s linear forwards;
   }
   .content-img-txt {
     position: absolute;
@@ -888,8 +883,7 @@ video {
     font-weight: 400;
     letter-spacing: -0.1px;
     margin-top: 12px;
-    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic",
-      "돋움", dotum, sans-serif;
+    font-family: "Noto Sans KR", "나눔고딕", "NanumGothic", "Nanum Gothic", "돋움", dotum, sans-serif;
   }
   .content-img-second {
     margin-top: 390px;
@@ -925,7 +919,7 @@ video {
     margin-top: 24px;
   }
   .our-img-content1 {
-    background: url(../img/main/business_bg1.jpg) 0 0 / cover no-repeat;
+    background: url(../img/main/business_bg1.jpg) 0 0/cover no-repeat;
     display: flex;
     align-items: flex-end;
     height: 25vw;
@@ -933,7 +927,7 @@ video {
     margin-bottom: 40px;
   }
   .our-img-content2 {
-    background: url(/img/main/business_bg2.jpg) 0 0 / cover no-repeat;
+    background: url(/img/main/business_bg2.jpg) 0 0/cover no-repeat;
     display: flex;
     align-items: flex-end;
     height: 25vw;
@@ -954,7 +948,7 @@ video {
     color: #fff;
   }
   .our-img-content3 {
-    background: url(/img/main/business_bg3.jpg) 0 0 / cover no-repeat;
+    background: url(/img/main/business_bg3.jpg) 0 0/cover no-repeat;
     display: flex;
     position: relative;
     align-items: flex-end;
@@ -1122,4 +1116,4 @@ video {
   .copyright p {
     margin-left: 306px;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
